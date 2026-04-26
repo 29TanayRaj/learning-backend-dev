@@ -40,7 +40,7 @@ Before the request can reach the server, it must pass through a **firewall**. Fi
 - Common ports include 80 for HTTP and 443 for HTTPS.
 - If these ports are not allowed, the request is blocked before reaching the server.
 
-This mechanism ensures that only authorized traffic is permitted. :contentReference[oaicite:2]{index=2}
+This mechanism ensures that only authorized traffic is permitted. 
 
 ### Step 5: Reverse Proxy (e.g., Nginx)
 
@@ -48,7 +48,7 @@ A **reverse proxy** is a server that sits in front of backend services and manag
 
 Its responsibilities include routing traffic to the correct internal service, redirecting HTTP requests to HTTPS, managing SSL certificates, and centralizing configuration. Instead of configuring multiple backend services separately, the reverse proxy provides a single point of control.
 
-For example, a request to a domain may be redirected to a local server running on a specific port like `localhost:3001`. :contentReference[oaicite:3]{index=3}
+For example, a request to a domain may be redirected to a local server running on a specific port like `localhost:3001`. 
 
 ### Step 6: Backend Application
 
