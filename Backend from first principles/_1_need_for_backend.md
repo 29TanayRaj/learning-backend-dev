@@ -1,6 +1,3 @@
-# Backend & Frontend Fundamentals — Detailed Notes
-
----
 
 ## What is a Backend?
 
@@ -59,7 +56,7 @@ At this stage:
 - It may interact with databases or other services.
 - It generates a response, often in JSON format, and sends it back to the client.
 
-This is where the actual business logic is executed. :contentReference[oaicite:4]{index=4}
+This is where the actual business logic is executed.
 
 ## Summary of Backend Request Flow
 
@@ -83,7 +80,7 @@ When a user likes a post:
 4. It identifies the owner of the post.
 5. It triggers a notification for that user.
 
-All of these steps happen on the backend and are invisible to the user. :contentReference[oaicite:5]{index=5}
+All of these steps happen on the backend and are invisible to the user.
 
 ### Core Responsibilities of a Backend
 
@@ -430,4 +427,4 @@ This approach enables you to:
 - Build scalable and maintainable systems
 - Navigate complex codebases with ease
 
-The ultimate goal is to develop an **internal compass** that guides you through any backend system, no matter how unfamiliar it may seem. \
+The ultimate goal is to develop an **internal compass** that guides you through any backend system, no matter how unfamiliar it may seem.
